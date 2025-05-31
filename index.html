@@ -1,10 +1,97 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>My Projects</title>
+    <meta charset="UTF-8">
+    <title>Curiosity Corner | Projects & Learning Tools</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore interactive projects and learning tools at Curiosity Corner, including vocabulary games, barcode makers, and more.">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            text-align: center;
+            margin-top: 56px;
+            margin-bottom: 0;
+        }
+
+        h1 {
+            font-family: 'Montserrat', Arial, sans-serif;
+            font-weight: 700;
+            font-size: 2.8rem;
+            color: #fff;
+            letter-spacing: 2px;
+            text-shadow: 0 2px 8px rgba(80, 80, 120, 0.16);
+            margin: 0 auto 10px auto;
+            display: block;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 48px 0 0 0;
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        li {
+            transition: transform 0.16s cubic-bezier(.4,2,.6,1), box-shadow 0.2s;
+        }
+
+        li:hover {
+            transform: translateY(-6px) scale(1.03);
+            box-shadow: 0 6px 24px rgba(38,70,255,0.13), 0 2px 8px rgba(0,0,0,0.12);
+        }
+
+        a {
+            display: block;
+            padding: 22px 30px;
+            background: rgba(255,255,255,0.90);
+            border-radius: 20px;
+            font-size: 1.25rem;
+            color: #2357c7;
+            font-weight: 600;
+            text-decoration: none;
+            letter-spacing: 1px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+            transition: background 0.2s, color 0.2s;
+        }
+
+        a:hover, a:focus {
+            background: #2357c7;
+            color: #fff;
+            outline: none;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            a {
+                font-size: 1rem;
+                padding: 16px 16px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Pages!</h1>
+    <header>
+        <h1>Welcome to my <strong>Curiosity Corner!</strong></h1>
+    </header>
     <ul>
         <li><a href="https://techiedude1.github.io/vocabulary-quiz/">Vocabulary Game</a></li>
         <li><a href="https://techiedude1.github.io/barcode/">Barcode Maker</a></li>
